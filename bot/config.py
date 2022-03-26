@@ -1,19 +1,19 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
+    BOT_TOKEN = "5201039145:AAFfn3ewYV6kYjKYxBfs2TokRnGRK553y-c"
+    APP_ID = "6235351"
+    API_HASH = "f68fde1378da8f85a243f2ae57f2fcf9"
     DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    SUDO_USERS = "5072360801 2005755862 1287276743 1601406864 2095879852 -1001251594119" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-    SUPPORT_CHAT_LINK = ""
+    G_DRIVE_CLIENT_ID = "873773787871-abr84jq1n84q93ve87m3okes0bfmegrp.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
+    SUPPORT_CHAT_LINK = "https://t.me/+FybEXzvlVJk0ZDE1"
 
 
 class BotCommands:
   Download = ['download', 'dl']
-  Authorize = ['auth', 'authorize']
-  SetFolder = ['setfolder', 'setfl']
+  Authorize = ['auth', 'auth']
+  SetFolder = ['setfolder', 'setf']
   Revoke = ['revoke']
   Clone = ['copy', 'clone']
   Delete = ['delete', 'del']
